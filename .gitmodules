@@ -13,3 +13,6 @@
 [submodule "mtn-exods"]
 	path = mtn-exods
 	url = git@github.com:Mark-Kovalyov/mtn-exods.git
+[submodule "mtn-image"]
+	path = mtn-image
+	url = git@github.com:Mark-Kovalyov/mtn-image.git
