@@ -16,3 +16,6 @@
 [submodule "mtn-image"]
 	path = mtn-image
 	url = git@github.com:Mark-Kovalyov/mtn-image.git
+[submodule "mtn-math"]
+	path = mtn-math
+	url = git@github.com:Mark-Kovalyov/mtn-math.git
