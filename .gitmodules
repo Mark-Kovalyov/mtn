@@ -1,0 +1,3 @@
+[submodule "mtn-utils"]
+	path = mtn-utils
+	url = git@github.com:Mark-Kovalyov/mtn-utils.git
