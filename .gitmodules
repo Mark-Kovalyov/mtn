@@ -10,3 +10,6 @@
 [submodule "mtn-gis"]
 	path = mtn-gis
 	url = git@github.com:Mark-Kovalyov/mtn-gis.git
+[submodule "mtn-exods"]
+	path = mtn-exods
+	url = git@github.com:Mark-Kovalyov/mtn-exods.git
