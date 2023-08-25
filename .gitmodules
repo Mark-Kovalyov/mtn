@@ -4,3 +4,6 @@
 [submodule "mtn-encoders"]
 	path = mtn-encoders
 	url = git@github.com:Mark-Kovalyov/mtn-encoders.git
+[submodule "mtn-network"]
+	path = mtn-network
+	url = git@github.com:Mark-Kovalyov/mtn-network.git
