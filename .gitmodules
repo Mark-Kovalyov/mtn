@@ -7,3 +7,6 @@
 [submodule "mtn-network"]
 	path = mtn-network
 	url = git@github.com:Mark-Kovalyov/mtn-network.git
+[submodule "mtn-gis"]
+	path = mtn-gis
+	url = git@github.com:Mark-Kovalyov/mtn-gis.git
