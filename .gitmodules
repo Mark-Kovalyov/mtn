@@ -19,3 +19,9 @@
 [submodule "mtn-math"]
 	path = mtn-math
 	url = git@github.com:Mark-Kovalyov/mtn-math.git
+[submodule "mtn-graph"]
+	path = mtn-graph
+	url = git@github.com:Mark-Kovalyov/mtn-graph.git
+[submodule "mtn-audio"]
+	path = mtn-audio
+	url = git@github.com:Mark-Kovalyov/mtn-audio.git
