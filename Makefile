@@ -1,5 +1,8 @@
-install-all: install-utils install-encoders install-gis install-network install-graph install-math install-exods install-image
-	
+install-all: update-all install-utils install-encoders install-gis install-network install-graph install-math install-exods install-image
+
+update-all: 
+	git submodule update --recursive --remote
+
 install-utils:
 	cd mtn-utils && make install
 
@@ -16,7 +19,7 @@ install-graph: install-encoders
 	cd mtn-graph && make install
 
 install-math:
-	cd mtn-math && cd java && cd mtn-math && make install
+	cd mtn-math && make install
 
 install-exods:
 	cd mtn-exods && make install
