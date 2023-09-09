@@ -1,4 +1,4 @@
-install-all: update-all install-utils install-encoders install-gis install-network install-graph install-math install-exods install-image
+install-all: update-all install-utils install-encoders install-gis install-network install-graph install-math install-exods install-image install-mtn-audio
 
 update-all: 
 	git submodule update --recursive --remote
@@ -26,3 +26,6 @@ install-exods:
 
 install-image:
 	cd mtn-image && make install
+
+install-mtn-audio:
+	cd mtn-audio && git pull && make install
