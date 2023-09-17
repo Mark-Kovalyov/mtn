@@ -4,28 +4,28 @@ update-all:
 	git submodule update --recursive --remote
 
 install-utils:
-	cd mtn-utils && make install
+	cd mtn-utils && git checkout master &&  git pull &&  make install
 
 install-encoders: 
-	cd mtn-encoders && make install
+	cd mtn-encoders && git checkout master && git pull &&  make install
 
 install-gis: install-utils install-encoders install-network
-	cd mtn-gis && make install
+	cd mtn-gis && git checkout main && git pull && make install
 
-install-network: install-encoders 
-	cd mtn-network && make install
+install-network: install-encoders
+	cd mtn-network && git checkout master && git pull && make install
 
 install-graph: install-encoders
-	cd mtn-graph && make install
+	cd mtn-graph && git checkout master && git pull && make install
 
 install-math:
-	cd mtn-math && make install
+	cd mtn-math && git checkout master && git pull && make install
 
 install-exods:
-	cd mtn-exods && make install
+	cd mtn-exods && git checkout main && git pull && make install
 
 install-image:
-	cd mtn-image && make install
+	cd mtn-image && git checkout master && git pull && make install
 
-install-mtn-audio:
-	cd mtn-audio && git pull && make install
+install-audio:
+	cd mtn-audio && git checkout main && git pull && make install
